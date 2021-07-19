@@ -1,0 +1,33 @@
+#main-nav__name-container {
+    display: flex;
+    align-items: center;
+}
+
+#main-nav__name-container object {
+    pointer-events: none;
+}
+
+#main-logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-logo {
+    height: 32px;
+    transition: transform 0.5s;
+}
+
+#main-logo-title {
+    width: 0px;
+    text-align: left;
+
+    font-weight: 600;
+    color: #fff;
+
+    user-select: none;
+    -moz-user-select: none;
+    -ms-touch-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+}

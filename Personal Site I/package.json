@@ -1,0 +1,19 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "Node translation of my personal website",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "author": "Vimolicious",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}

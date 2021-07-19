@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #20282c;
+
+  font-family: Montserrat, Roboto, sans-serif;
+  font-weight: 500;
+
+  min-width: 300px;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+a {
+  color: #56bfec;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-family: Montserrat, Roboto, sans-serif;
+  color: #e0e0e0;
+  max-width: 1024px;
+}
+
+main {
+  /* min-height: calc(100vh - 64px); */
+  margin-top: 64px;
+  max-width: 3000px;
+}
+
+button {
+  background: inherit;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #56bfec;
+  min-width: 120px;
+  width: auto;
+
+  font-family: Montserrat, Roboto, sans-serif;
+  font-size: 14px;
+
+  color: white;
+
+  padding: 0.75rem 1rem;
+
+  text-align: center;
+  box-sizing: border-box;
+
+  border-radius: 48px;
+}
+
+.btn:hover {
+  background-color: #37a0cd;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 24px;
+  font-family: 'Material Icons';
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 2rem;
+}
+
+.panel h3,
+.subtitle {
+  color: #cdcdcd;
+}
+
+.panel--lighter {
+  background-color: #283237;
+}
+
+.highlight {
+  color: #ffcb6b;
+}
+
+.mt-4 {
+  margin-top: 4rem;
+}
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+}

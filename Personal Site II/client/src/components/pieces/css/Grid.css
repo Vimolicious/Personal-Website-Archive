@@ -1,0 +1,13 @@
+.grid-container {
+    width: 100%;
+}
+
+.grid-content {
+    list-style: none;
+    padding: 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+/* Props to CSS Tricks (https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/) */

@@ -1,0 +1,27 @@
+#hero-img {
+    height: 60vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    text-align: center;
+
+    font-weight: 500;
+
+    font-size: 75px;
+    background: url('../../../img/hero.jpg') center center no-repeat;
+
+    text-transform: lowercase;
+}
+
+.projects-item {
+    border-top: 1px solid #000;
+}
+
+@media only screen and (max-width: 576px) {
+    .heading {
+        text-align: center;
+    }
+}

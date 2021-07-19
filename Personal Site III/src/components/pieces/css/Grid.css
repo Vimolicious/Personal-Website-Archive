@@ -1,0 +1,19 @@
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid-item p {
+  color: black;
+}
+
+.grid--dark .grid-item p {
+  color: white;
+}

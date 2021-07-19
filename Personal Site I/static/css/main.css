@@ -1,0 +1,102 @@
+/* GLOBAL */
+
+body {
+    font: 16px/1.5 "Product-Sans", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+a {
+    cursor: pointer;
+    color: currentColor;
+
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.centered-vertical {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.centered-horizontal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dark {
+    padding: 15px;
+    background: #212121;
+    color: #fff;
+}
+
+.responsive {
+    max-width: 1140px;
+
+    margin: auto;
+}
+
+
+
+/* FONT-AWESOME */
+
+.fa {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    color: black;
+  }
+  
+  .fa:hover {
+      opacity: 0.95;
+  }
+  
+/* QUERIES */
+@media(max-width: 1200px) {
+    .responsive {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 992px) {
+    .responsive {
+        max-width: 720px;
+    }
+}
+
+@media(max-width: 768px) {
+    .responsive {
+        max-width: 540px;
+    }
+}
+
+@media(max-width: 576px) {
+    .responsive {
+        max-width: 80%;
+    }
+}
+
+@media(max-width: 320px) {
+    body {
+        width: 320px;
+    }
+}

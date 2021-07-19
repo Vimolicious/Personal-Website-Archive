@@ -1,0 +1,9 @@
+#projects a.btn {
+  margin: 2rem 0;
+}
+
+#projects p {
+  max-width: 730px;
+  text-align: center;
+  margin-bottom: 2rem;
+}

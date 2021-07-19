@@ -1,0 +1,8 @@
+.about-profile {
+    border-radius: 8px;
+    background: url('../../../img/about.jpg') right center;
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    margin: 2rem auto;
+}

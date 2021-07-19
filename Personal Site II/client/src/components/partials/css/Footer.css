@@ -1,0 +1,19 @@
+#main-footer-wrapper {
+    width: 100%;
+    padding: 24px;
+    border-right: transparent;
+    border-left: transparent;
+
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
+    background: radial-gradient(#272d31, #15292c), -webkit-radial-gradient(#272d31, #172d31);
+    color: white;
+}
+
+#main-footer__container {
+    width: 95%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}

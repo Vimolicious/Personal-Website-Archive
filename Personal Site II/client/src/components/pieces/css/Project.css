@@ -1,0 +1,28 @@
+.project-data {
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.project-data p {
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.project-data p::before {
+    font-family: 'Material Icons';
+    padding: 0 1rem;
+}
+
+.project-data__language::before {
+    content: 'language';
+}
+
+.project-data__stars::before {
+    content: 'stars';
+}
+
+.project-data__forks::before {
+    content: 'timeline';
+}

@@ -1,0 +1,195 @@
+/* HEADER */
+
+header {
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+
+    margin: 0;
+    top: 0;
+
+    color: #fff;
+
+    transition: margin .25s;
+}
+        #open-close-button i {
+            color: #000;
+            font-size: 30px;
+
+            padding: 0;
+            margin: 0;
+        }
+
+        #open-close-button {
+            height: 30px;
+            width: 100%;
+
+            padding: 0;
+            margin: 0;
+
+            background-color: #fff;
+            border: 0;
+
+            display: none;
+
+            cursor: pointer;
+        }
+
+        #open-close-button:focus {
+            outline: none;
+        }
+
+        header a {
+            text-decoration: none;
+
+            background: rgba(0, 0, 0, 0);
+            
+            padding: 20px;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+
+        header .active a {
+            background: rgba(204, 42, 42, 0.795);
+        }
+
+        header .active a:hover {
+            background: rgba(204, 42, 42, 0.9);
+            color: #fff;
+        }
+
+        header a:hover {
+            background: rgba(255, 255, 255, 0.5);
+            text-shadow: rgba(0, 0, 0, 0.1) 2px 2px;
+
+            text-decoration: none;
+        }
+
+        header nav {
+            float: left;
+            margin-top: 28px;
+            margin-bottom: 28px;
+
+            transition: margin-top 0.25s;
+        }
+
+        header li {
+            display: inline;
+
+            padding: 0px 30px 0px 0px;
+        }
+
+        header ul {
+            margin: 0;
+            padding: 0;
+        }
+
+
+header.condensed {
+    background-color: rgba(255, 255, 255, .95);
+    color: #000;
+        
+    height: auto;
+
+    
+}
+
+        header.condensed .active a {
+            color: #fff;
+        }
+
+        header.condensed .active a:hover {
+            background: rgba(204, 42, 42, 0.9);
+        }
+
+        header.condensed a:hover {
+            background-color: rgba(0, 0, 0, 0.3);
+            color: #fff;
+        }
+
+        header.condensed nav {    
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+            transition: margin-top 0.25s;
+        }
+
+
+/* QUERIES */
+
+@media(max-width: 320px) {
+    header {
+        width: 320px;
+    }
+}
+
+@media(max-width: 768px) {
+    #main-nav button {
+        display: block;
+    }
+
+    #main-nav .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        width: 100%;
+    } 
+
+    #top-nav {
+        width: 100%;
+
+        margin: 0;
+
+        position: absolute;
+        top: -100px;
+
+        opacity: 0;
+
+        z-index: -1;
+
+        transition: top 0.35s, opacity .1s;
+        
+    }
+
+    #main-nav nav.open {
+        position: absolute;
+        top: 30px;
+
+        opacity: 1;
+
+        transition: top 0.35s, opacity .1s;
+    }
+
+    #top-nav ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    #top-nav li {
+
+        text-align: center;
+
+        display: block;
+
+        margin: 0;
+        padding: 0;
+    }
+
+    #top-nav li a {
+        width: 100%;
+
+        display: block;
+        padding: 10px 0;
+    }
+
+    #top-nav li:not(.active) a {
+        background-color: #fff;
+        color: #000;
+    }
+
+    #top-nav li.active a {
+        background-color: rgba(204, 42, 42, 1);
+        color: #fff;
+    } 
+}

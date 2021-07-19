@@ -1,0 +1,31 @@
+{
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "Portfolio site",
+    "main": "app.js",
+    "scripts": {
+        "dev": "nodemon app.js",
+        "start": "node app.js"
+    },
+    "author": "Vimolicious",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^1.19.1"
+    },
+    "dependencies": {
+        "bcrypt": "^3.0.6",
+        "express": "^4.17.1",
+        "express-graphql": "^0.9.0",
+        "graphql": "^14.4.2",
+        "mongoose": "^5.6.9",
+        "node-fetch": "^2.6.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Vimolicious/Portfolio-Server.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Vimolicious/Portfolio-Server/issues"
+    },
+    "homepage": "https://github.com/Vimolicious/Portfolio-Server#readme"
+}

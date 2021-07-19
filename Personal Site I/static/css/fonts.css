@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url("../fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Questrial";
+    src: url("../fonts/Questrial.ttf");
+}
+
+@font-face {
+    font-family: "Product-Sans";
+    src: url("../fonts/Product\ Sans.ttf");
+}

@@ -1,0 +1,174 @@
+#landing {
+  position: relative;
+}
+
+#software .grid-item {
+  text-align: center;
+  width: 200px;
+  margin: 1rem;
+}
+
+#landing .grid-item img {
+  flex-grow: 1;
+}
+
+#landing .grid-item p {
+  margin-top: 1rem;
+  font-weight: 800;
+}
+
+#profile::before {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+  display: block;
+  background: url('../../images/shape.svg') center top / auto repeat no-repeat;
+}
+
+#profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  height: 770px;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgb(147, 55, 55, 0.85) 32%,
+    rgb(55, 70, 147, 0.85) 100%
+  );
+}
+
+#profile::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('../../images/hero.jpg') center top / cover no-repeat;
+  z-index: -1;
+}
+
+#profile__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  height: calc(100% - 50px);
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+
+.profile__image {
+  border: 14px solid #fafafa;
+  border-radius: 250px;
+  box-sizing: border-box;
+  width: 232px;
+  height: 232px;
+}
+
+#profile__title {
+  font-size: 36px;
+  margin: 50px 0 10px 0;
+}
+
+#profile__desc {
+  font-size: 16px;
+  margin: 0;
+}
+
+#profile__button-container {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#profile__button-container :not(:last-child) {
+  margin-bottom: 16px;
+}
+
+#profile .btn {
+  font-size: 14px;
+}
+
+#cards {
+  padding: 0 20px;
+}
+
+.projects__preview-window {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  width: 280px;
+  height: 280px;
+  background-color: #000;
+  border-radius: 8px;
+  margin: auto;
+  padding: 1rem;
+  color: white;
+
+  box-sizing: border-box;
+}
+
+#projects .grid {
+  margin-bottom: 1rem;
+}
+
+#projects__err-message {
+  display: flex;
+  height: 300px;
+  align-items: center;
+}
+
+#software .grid {
+  max-width: 800px;
+}
+
+#projects-preview .btn {
+  margin-top: 1rem;
+}
+
+@media (min-width: 576px) {
+  #profile__title {
+    font-size: 48px;
+  }
+
+  #profile__desc {
+    font-size: 22px;
+  }
+
+  #profile__button-container {
+    flex-direction: row;
+  }
+
+  #profile .btn {
+    font-size: 18px;
+  }
+
+  #profile__button-container :not(:last-child) {
+    margin-right: 16px;
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #profile__image {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 2000px) {
+  #background-shape {
+    display: none;
+  }
+}
