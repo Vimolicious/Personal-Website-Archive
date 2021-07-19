@@ -27,4 +27,4 @@ All of my previously published personal websites.
 
 | First Commit Date | Last Commit Date | Total Number of Commits |
 | :---------------- | :--------------- | :---------------------- |
-| Feb 24, 2019      | Mar 20, 2019     | 25                      |
+| Feb 24, 2019      | Mar 20, 2019     | 4                       |
